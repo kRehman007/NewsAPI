@@ -40,6 +40,9 @@
         margin: 10px auto;
         color: #fff;
     }
+    .articles div h1{
+        font-size:17px;
+    }
     .articles div{
         margin-top: 30px;
     }    
