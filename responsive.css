@@ -1,4 +1,73 @@
-@media  only screen and (max-width:480px){
+@media (max-width:400px){
+    .heading{
+        width: 100%;
+        height: 65px;
+        background-color: lightgray;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        justify-content: space-around;
+        
+        
+    }
+    .heading img{
+        margin-top: 6px;
+       margin-left: 30px;
+       width: 50px;
+       height: 50px;
+    }
+    .heading .box{
+        transform: translate(25%, -257%); 
+        position: relative;  
+    }
+    .box button{
+        position: absolute;
+        top: 0;
+        left: 100%;
+        border: 1px solid gray;
+        background:#000;
+        color: #fff;
+        border-left: none;
+        border-radius: none;
+    }
+    .box input{
+        transform: translateX(70px);
+        border-top-right-radius: none;
+        border-bottom-right-radius: none;
+    }
+    .heading .list{
+        flex: none;
+        background-color: #eee;
+        width: 100%;
+    }
+    .list ul li{
+        padding-left: 0px;
+        padding: 10px 10px;
+        margin: 0;
+        transform: translateX(-105px);
+    }
+
+    .articles{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 1fr;
+        margin: 10px auto;
+        color: #fff;
+    }
+    .articles div{
+        margin-top: 30px;
+    }    
+    .articles div h1{
+        font-size: 15px;
+    }
+}
+
+
+
+
+
+
+@media  (max-width:600px){
     .heading{
         width: 100%;
         height: 65px;
@@ -40,13 +109,9 @@
         margin: 10px auto;
         color: #fff;
     }
-    .articles div h1{
-        font-size:17px;
-    }
     .articles div{
         margin-top: 30px;
     }    
 }
-
 
 
