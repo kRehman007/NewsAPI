@@ -1,7 +1,7 @@
 const articleDiv=document.querySelector('.articles');
 const inputBox=document.getElementById('inputBox');
 
-window.addEventListener('load',()=> fetchNews('India'));
+window.addEventListener('load',()=> fetchNews('Pakistan'));
 
 async function fetchNews(cat){
     const url = 'https://google-api31.p.rapidapi.com/';
